@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+  <head>
+      <title>Арт-центр</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script src="https://use.fontawesome.com/c66d61b4c7.js"></script>
+      <link rel="stylesheet/less" type="text/css" href="./css/page1.less">
+      <link rel="stylesheet" href="./css/fonts.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  </head>
+  <body>
+        <section class="menu">
+            <div class="menu__main">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="page2.html">Арт-Центр</a></li>
+                    <li id="menuBtnJS"><a>Направления</a>
+                        <ul class="menu__main-direction" id="menuJS">
+                            <li><a href="podsolnuh.html">ПОДСОЛНУХ</a></li>
+                            <li><a href="mix_dance.html">MIX-DANCE</a></li>
+                            <li><a href="happy_baby.html">HAPPY BABY</a></li>
+                            <li><a href="balet.html">БАЛЕРИНКА</a></li>
+                            <li><a href="malina.html">МАЛИНКИ</a></li>
+                            <li><a href="maska.html">МАСКА</a></li>
+                            <li><a href="pauk.html">ПАУК</a></li>
+                            <li><a href="chempion.html">ЧЕМПИОН</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="page4.html">Контакты</a></li>
+                    <li><a href="page5.html">Педагоги</a></li>
+                    <li><a href="page6.html">Записаться</a></li>
+                </ul>
+            </div>
+            <div class="menu__mobile">
+                <div class="menu__mobile-logo">
+                    <a href="index.html"><img src="images/page1/logo-menu.png"></a>
+                </div>
+                <div class="menu__mobile-nav">
+                    <i class="fas fa-bars fa-2x mobile-fa" id="BurgerJS"></i>
+                </div>
+                <div class="main-menu-mobile" id="menuBurgerJS">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="page2.html">Арт-Центр</a></li>
+                        <li class="btn-mobile-menu" id="btnMobileJS"><a>Направления<span><i class="fa fa-caret-up" id="caretJS" aria-hidden="true"></i></span></a>
+                            <ul class="menu-direction-mobile" id="mobileJS">
+                                <li><a href="podsolnuh.html" class="left">ПОДСОЛНУХ</a></li>
+                                <li><a href="happy_baby.html" class="left">HAPPY BABY</a></li>
+                                <li><a href="malina.html" class="left">МАЛИНКИ</a></li>
+                                <li><a href="pauk.html" class="left">ПАУК</a></li>
+                                <li><a href="mix_dance.html" class="right">MIX-DANCE</a></li>
+                                <li><a href="balet.html" class="right">БАЛЕРИНКА</a></li>
+                                <li><a href="maska.html" class="right">МАСКА</a></li>
+                                <li><a href="chempion.html" class="right">ЧЕМПИОН</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="page4.html">Контакты</a></li>
+                        <li><a href="page5.html">Педагоги</a></li>
+                        <li class="menu-direction-mobile last"><a href="page6.html">Записаться</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="poster">
+            <div class="poster__text">
+                <h1>арт-центр <span>NR</span></h1>
+                <h2 class="poster__text-all">4 филиала 8 направлений 10 лет опыта</h2>
+                <h2 class="poster__text-phone">4 филиала <br> 8 направлений <br> 10 лет опыта</h2>
+                <h6><span>уже более 10 лет мы расскрываем таланты ваших детей</span><br>приглашем на занятия детей от 3-х лет</h6>
+                <input type="submit" value="записаться" class="poster__text-mobile">
+            </div>
+        </section>
+        <section class="form">
+            <div class="form__wrapper">
+                <form  class="form-group" name="info" method="post" action="http://fe.it-academy.by/TestForm.php">
+                    <div class="form-input">
+                        <label for="child" class="form-text">ФИО</label>
+                        <input type="text" id="child" name="phone" placeholder="ребенка" required class="text-input">
+                    </div>
+                    <div class="form-input">
+                        <label for="child" class="form-text">ТЕЛЕФОН</label>
+                        <input type="text" name="phone" placeholder="родителя" required class="text-input">
+                    </div>
+                    <div class="form-input">
+                        <label class="form-text">НАПРАВЛЕНИЕ</label>
+                        <select>
+                            <option>какое направление?</option>
+                            <option>ПОДСОЛНУХ</option>
+                            <option>MIX-DANCE</option>
+                            <option>ПАУК</option>
+                            <option>МАСКА</option>
+                            <option>МАЛИНКИ</option>
+                            <option>БАЛЕРИНКА</option>
+                            <option>HAPPY BABY</option>
+                        </select>
+                    </div>
+                    <div class="form-input">
+                        <input type="submit" value="записаться" class="text-submit submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__wrapper">
+                <div class="about__wrapper-photo">
+                    <img src="images/page1/about.jpg" alt="фото о нас">
+                </div>
+                <div class="about__wrapper-text">
+                    <h4>Добро пожаловать в <br> Арт-Центр Наталии Рякиной</h4>
+                    <p>Первоначально появился детский театр танца «Подсолнух» в 2007 году. Арт-центр «Натилии Рякиной» был создан в октябре 2015 года. Детский театр танца «Подсолнух» был в основном рассчитан для детей до 6 лет. Дети росли, и чтобы дальше можно было развиваться, были созданы такие направления как Mix Dance, Брейк Данс команда «Паук» и другие.</p>
+                    <a class="btn-about" href="page2.html">подробнее</a>
+                </div>
+            </div>
+        </section>
+        <section class="directions">
+            <div class="directions__text">
+                <h2>Наши направления</h2>
+                <p>Мы предоставляем большой выбор групп для детей любого возраста. <br> Также вы можете посещать несколько групп и всесторонне развивать таланты своего ребенка. </p>
+            </div>
+            <div class="directions__block">
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card1.jpg" alt="картинка1">
+                        <img src="images/page1/logo1.jpg" alt="лого1" class="logo">
+                        <a href="podsolnuh.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card2.jpg" alt="картинка2">
+                        <img src="images/page1/logo2.jpg" alt="лого2" class="logo">
+                        <a  href="mix_dance.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card3.jpg" alt="картинка3">
+                        <img src="images/page1/logo3.jpg" alt="лого3" class="logo">
+                        <a href="pauk.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card4.jpg" alt="картинка4">
+                        <img src="images/page1/logo4.jpg" alt="лого3" class="logo">
+                        <a href="maska.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card5.jpg" alt="картинка5">
+                      <img src="images/page1/logo5.jpg" alt="лого5" class="logo">
+                      <a href="malina.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card6.jpg" alt="картинка6">
+                        <img src="images/page1/logo6.jpg" alt="лого6" class="logo">
+                        <a href="balet.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card7.jpg" alt="картинка7">
+                        <img src="images/page1/logo7.jpg" alt="лого7" class="logo">
+                        <a href="happy_baby.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+                <div class="directions__block-card">
+                    <div class="direction-hover">
+                        <img src="images/page1/card8.jpg" alt="картинка8">
+                        <img src="images/page1/logo8.jpg" alt="лого8" class="logo">
+                        <a href="chempion.html" class="btn-card">подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery__wrapper">
+                <div class="gallery__wrapper-photo1">
+                    <img src="images/page1/gallery1.jpg" alt="картинка1">
+                    <div class="item-gallery">
+                        <a href="images/page1/gallery1-big.jpg" target="_blank" class="btn-gallery"><i class="fas fa-eye fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="gallery__wrapper-photo2">
+                    <img src="images/page1/gallery2.jpg" alt="картинка2">
+                    <div class="item-gallery">
+                        <a href="images/page1/gallery2-big.jpg" target="_blank" class="btn-gallery"><i class="fas fa-eye fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="gallery__wrapper-photo3">
+                    <img src="images/page1/gallery3.jpg" alt="картинка3">
+                    <div class="item-gallery">
+                        <a href="images/page1/gallery3-big.jpg" target="_blank" class="btn-gallery"><i class="fas fa-eye fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="gallery__wrapper-photo4">
+                    <img src="images/page1/gallery4.jpg" alt="картинка4">
+                    <div class="item-gallery">
+                        <a href="images/page1/gallery4-big.jpg" target="_blank" class="btn-gallery"><i class="fas fa-eye fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="gallery__wrapper-photo5">
+                    <img src="images/page1/gallery5.jpg" alt="картинка5">
+                    <div class="item-gallery">
+                        <a href="images/page1/gallery5-big.jpg"  target="_blank" class="btn-gallery"><i class="fas fa-eye fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="news__wrapper">
+                <h2>Новости Арт-центра</h2>
+                <p>Мы всегда рады быть на связи с Вами.</p>
+                <div class="news__wrapper-text">
+                    <div class="text">
+                        <h5>Лето в Арт-центре Натальи Рякиной!</h5>
+                        <p>Мы продолжаем заниматься<br> дистанционно и онлайн.<br>Напоминаем про новые формы наших занятий: мини-группы, занятия на улице и индивидуальные занятия.<br><a href="https://art-centr-nr.relax.by/news/418283/" target="_blank">Подробнее можно узнать здесь!</a></p>
+                    </div>
+                    <div class="text">
+                        <h5>Детско-юношеский социальный проект «Творческое лето-2020»</h5>
+                        <p> Это — креативный лагерь, где ваш ребёнок будет не только под присмотром пока вы работаете, но и сможет попробовать себя в различных творческих направлениях:...<br><a href="https://art-centr-nr.relax.by/news/418553/" target="_blank">Подробнее можно узнать здесь!</a></p>
+                    </div>
+                    <div class="text">
+                        <h5>Старшая группа основного состава <br> студии танца «Mix Dance»</h5>
+                        <p>В нашем арт-центре регулярно проходят открытые занятия по всем дисциплинам и всем направлениям.  Открытое занятие по дисциплинам:<br><a href="https://art-centr-nr.relax.by/news/332983/" target="_blank">Подробнее можно узнать здесь!</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer__wrapper">
+                <a href="index.html" class="btn-footer">
+                    <div class="logo-footer">
+                        <img src="images/page1/logo.png">
+                    </div>
+                </a>
+                <div class="footer__social">
+                    <ul>
+                        <li><a class="footer__social-icon" href="https://www.facebook.com/artcentrnr/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a class="footer__social-icon" href="https://www.instagram.com/artcentrnr/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a class="footer__social-icon" href="https://vk.com/artcentrnr" target="_blank"><i class="fab fa-vk fa-2x"></i></a></li>
+                        <li><a class="footer__social-icon" href="https://ok.ru/group/53708871565498" target="_blank"><i class="fab fa-odnoklassniki fa-2x"></i></a></li>
+                        <li><a class="footer__social-icon" href="https://www.youtube.com/channel/UCLYQGs0VlZKMVjgE_68T51Q" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="page2.html">Арт-Центр</a></li>
+                        <li><a href="page4.html">Контакты</a></li>
+                        <li><a href="page5.html">Педагоги</a></li>
+                        <li><a href="page6.html">Записаться</a></li>
+                    </ul>
+                </div>
+                <p class="footer__wrapper-end">ул.Бирюзова13,<wbr> пр. Партизанский 95, <wbr> ул. Бачило 38, <wbr> Маяковского 129<br>+375296329841 +375292753250<br>artcentrnr@yandex.by</p>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/scr.js"></script>
+    </body>
+</html>      
